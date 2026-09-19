@@ -1,0 +1,18 @@
+name: Build Plugin
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkitarm:latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Build plugin
+        run: |
+          make
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: plugin-3gx
+          path: |
+            *.3gx
