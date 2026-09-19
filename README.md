@@ -28,3 +28,4 @@ Join the discord for help: https://discord.gg/z4ZMh27
 ![](https://i.imgur.com/t3gutXU.png)
 ![](https://i.imgur.com/U4ratx4.png)
 ![](https://i.imgur.com/uJBJZ8K.png)
+ boost
