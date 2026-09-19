@@ -1,5 +1,5 @@
 #include <3ds.h>
-#include <CTRPluginFramework.h>
+#include "../Includes/CTRPluginFramework.h"
 
 // Définition de votre code d'optimisation (Version Europe)
 #define ADRESSE_OPTIMISATION   0x00451C60 
